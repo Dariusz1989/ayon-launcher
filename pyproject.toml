@@ -34,6 +34,13 @@ dependencies = [
     "distro == 1.9.0; sys_platform == 'linux'",
     "pre-commit>=3.8.0",
     "toml",  # remove for python 3.11
+    "click>=8.1.8",
+    "clique>=2.0.0",
+    "pyblish>=1.7.0",
+    "speedcopy>=2.1.5",
+    "qtawesome>=1.4.1",
+    "aiohttp-middlewares>=2.4.0",
+    "websocket>=0.2.1",
 ]
 
 [project.optional-dependencies]
